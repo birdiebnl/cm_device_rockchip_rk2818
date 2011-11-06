@@ -1,5 +1,6 @@
 USE_CAMERA_STUB := true
 BOARD_USES_GENERIC_AUDIO := true
+BOARD_USE_FROYO_LIBCAMERA := true
 
 # inherit from the proprietary version
 -include vendor/rockchip/rk2818/BoardConfigVendor.mk
@@ -9,7 +10,7 @@ TARGET_BOARD_PLATFORM := rk2818
 TARGET_CPU_ABI := armeabi
 TARGET_BOOTLOADER_BOARD_NAME := rk28board
 #TARGET_ARCH_VARIANT := armv5
-#TARGET_ARCH_VARIANT_CPU := arm926ej-s
+TARGET_ARCH_VARIANT_CPU := arm926ej-s
 TARGET_PROVIDES_INIT_RC := true
 
 TARGET_NO_KERNEL := true

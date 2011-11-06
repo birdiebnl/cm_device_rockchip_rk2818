@@ -20,13 +20,11 @@ DEVICE=rk2818
 MANUFACTURER=rockchip
 
 mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-#cp ~/proprietary/rk2818/system/etc/asound.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/asound.conf
 cp ~/proprietary/rk2818/system/etc/firmware/DspBoot.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/DspBoot.rkl
 cp ~/proprietary/rk2818/system/etc/firmware/DspOs.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/DspOs.rkl
 cp ~/proprietary/rk2818/system/etc/firmware/athwlan.bin.z77 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/athwlan.bin.z77
 cp ~/proprietary/rk2818/system/etc/firmware/calData_ar6102_15dBm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/calData_ar6102_15dBm.bin
 cp ~/proprietary/rk2818/system/etc/firmware/data.patch.hw2_0.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/data.patch.hw2_0.bin
-#cp ~/proprietary/rk2818/system/etc/firmware/rk28_cmmb.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_cmmb.rkl
 cp ~/proprietary/rk2818/system/etc/firmware/rk28_flv1.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_flv1.rkl
 cp ~/proprietary/rk2818/system/etc/firmware/rk28_h263enc.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h263enc.rkl
 cp ~/proprietary/rk2818/system/etc/firmware/rk28_h263.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h263.rkl
@@ -101,13 +99,11 @@ PRODUCT_COPY_FILES := \\
 
 # All the blobs necessary for rk2818
 PRODUCT_COPY_FILES += \\
-#    vendor/__MANUFACTURER__/__DEVICE__/proprietary/asound.conf:system/etc/asound.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/DspBoot.rkl:system/etc/firmware/DspBoot.rkl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/DspOs.rkl:system/etc/firmware/DspOs.rkl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/athwlan.bin.z77:system/etc/firmware/athwlan.bin.z77 \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/calData_ar6102_15dBm.bin:system/etc/firmware/calData_ar6102_15dBm.bin \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/data.patch.hw2_0.bin:system/etc/firmware/data.patch.hw2_0.bin \\
-#    vendor/__MANUFACTURER__/__DEVICE__/proprietary/rk28_cmmb.rkl:system/etc/firmware/rk28_cmmb.rkl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/rk28_flv1.rkl:system/etc/firmware/rk28_flv1.rkl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/rk28_h263enc.rkl:system/etc/firmware/rk28_h263enc.rkl \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/rk28_h263.rkl:system/etc/firmware/rk28_h263.rkl \\
