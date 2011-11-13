@@ -9,8 +9,7 @@ $(call inherit-product-if-exists, vendor/rockchip/rk2818/device-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += device/rockchip/rk2818/overlay
 
 PRODUCT_COPY_FILES += \
-    device/rockchip/rk2818/init.rc:root/init.rc \
-    device/rockchip/rk2818/init.rk28board.rc:root/init.rk28board.rc
+    device/rockchip/rk2818/init.rc:root/init.rc
 
 PRODUCT_COPY_FILES += \
     device/rockchip/rk2818/init.d/10pointercal:system/etc/init.d/10pointercal \

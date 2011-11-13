@@ -1,3 +1,0 @@
-on boot
-    write /sys/bus/platform/drivers/dwc_otg/force_usb_mode 1
-

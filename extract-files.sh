@@ -44,9 +44,9 @@ cp ~/proprietary/rk2818/system/lib/hw/gralloc.rk28board.so ../../../vendor/$MANU
 cp ~/proprietary/rk2818/system/lib/hw/lights.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/lights.rk28board.so
 cp ~/proprietary/rk2818/system/lib/hw/overlay.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/overlay.rk28board.so
 cp ~/proprietary/rk2818/system/lib/hw/sensors.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sensors.rk28board.so
-cp ~/proprietary/rk2818/system/lib/libasound.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libasound.so
-cp ~/proprietary/rk2818/system/lib/libaudio.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudio.so
-cp ~/proprietary/rk2818/system/lib/libaudiopolicy.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudiopolicy.so
+cp ~/proprietary/rk2818_gb/system/lib/libasound.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libasound.so
+cp ~/proprietary/rk2818_gb/system/lib/libaudio.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudio.so
+cp ~/proprietary/rk2818_gb/system/lib/libaudiopolicy.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudiopolicy.so
 cp ~/proprietary/rk2818/system/lib/libcamera.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libcamera.so
 cp ~/proprietary/rk2818/system/lib/modules/wlan.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/wlan.ko
 cp ~/proprietary/rk2818/system/usr/share/alsa/alsa.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/alsa.conf
