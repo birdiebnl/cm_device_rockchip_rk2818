@@ -20,58 +20,101 @@ DEVICE=rk2818
 MANUFACTURER=rockchip
 
 mkdir -p ../../../vendor/$MANUFACTURER/$DEVICE/proprietary
-cp ~/proprietary/rk2818/system/etc/firmware/DspBoot.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/DspBoot.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/DspOs.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/DspOs.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/athwlan.bin.z77 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/athwlan.bin.z77
-cp ~/proprietary/rk2818/system/etc/firmware/calData_ar6102_15dBm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/calData_ar6102_15dBm.bin
-cp ~/proprietary/rk2818/system/etc/firmware/data.patch.hw2_0.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/data.patch.hw2_0.bin
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_flv1.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_flv1.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_h263enc.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h263enc.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_h263.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h263.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_h264_db.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h264_db.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_h264.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h264.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_jpegenc.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_jpegenc.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_mp4v.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_mp4v.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_rv30.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_rv30.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_rv40.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_rv40.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rk28_wmv.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_wmv.rkl
-cp ~/proprietary/rk2818/system/etc/firmware/rkl.ver ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rkl.ver
-cp ~/proprietary/rk2818/system/etc/firmware/sd8686.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686.bin
-cp ~/proprietary/rk2818/system/etc/firmware/sd8686_helper.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686_helper.bin
-cp ~/proprietary/rk2818/system/lib/hw/alsa.default.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/alsa.default.so
-cp ~/proprietary/rk2818/system/lib/hw/copybit.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/copybit.rk28board.so
-cp ~/proprietary/rk2818/system/lib/hw/gralloc.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gralloc.rk28board.so
-cp ~/proprietary/rk2818/system/lib/hw/lights.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/lights.rk28board.so
-cp ~/proprietary/rk2818/system/lib/hw/overlay.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/overlay.rk28board.so
-cp ~/proprietary/rk2818/system/lib/hw/sensors.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sensors.rk28board.so
+cp ~/proprietary/rk2818_gb/system/etc/firmware/DspBoot.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/DspBoot.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/DspOs.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/DspOs.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/athwlan.bin.z77 ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/athwlan.bin.z77
+cp ~/proprietary/rk2818_gb/system/etc/firmware/calData_ar6102_15dBm.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/calData_ar6102_15dBm.bin
+cp ~/proprietary/rk2818_gb/system/etc/firmware/data.patch.hw2_0.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/data.patch.hw2_0.bin
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_flv1.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_flv1.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_h263enc.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h263enc.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_h263.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h263.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_h264_db.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h264_db.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_h264.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_h264.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_jpegenc.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_jpegenc.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_mp4v.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_mp4v.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_rv30.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_rv30.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_rv40.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_rv40.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rk28_wmv.rkl ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rk28_wmv.rkl
+cp ~/proprietary/rk2818_gb/system/etc/firmware/rkl.ver ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rkl.ver
+cp ~/proprietary/rk2818_gb/system/etc/firmware/sd8686.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686.bin
+cp ~/proprietary/rk2818_gb/system/etc/firmware/sd8686_helper.bin ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sd8686_helper.bin
+cp ~/proprietary/rk2818_gb/system/lib/hw/alsa.default.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/alsa.default.so
+cp ~/proprietary/rk2818_gb/system/lib/hw/copybit.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/copybit.rk28board.so
+cp ~/proprietary/rk2818_gb/system/lib/hw/gralloc.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/gralloc.rk28board.so
+cp ~/proprietary/rk2818_gb/system/lib/hw/lights.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/lights.rk28board.so
+cp ~/proprietary/rk2818_gb/system/lib/hw/overlay.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/overlay.rk28board.so
+cp ~/proprietary/rk2818_gb/system/lib/hw/sensors.rk28board.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/sensors.rk28board.so
 cp ~/proprietary/rk2818_gb/system/lib/libasound.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libasound.so
 cp ~/proprietary/rk2818_gb/system/lib/libaudio.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudio.so
 cp ~/proprietary/rk2818_gb/system/lib/libaudiopolicy.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libaudiopolicy.so
-cp ~/proprietary/rk2818/system/lib/libcamera.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libcamera.so
-cp ~/proprietary/rk2818/system/lib/modules/wlan.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/wlan.ko
-cp ~/proprietary/rk2818/system/usr/share/alsa/alsa.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/alsa.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/cards/aliases.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/aliases.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/init/00main ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/00main
-cp ~/proprietary/rk2818/system/usr/share/alsa/init/default ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/default
-cp ~/proprietary/rk2818/system/usr/share/alsa/init/hda ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/hda
-cp ~/proprietary/rk2818/system/usr/share/alsa/init/help ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/help
-cp ~/proprietary/rk2818/system/usr/share/alsa/init/info ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/info
-cp ~/proprietary/rk2818/system/usr/share/alsa/init/test ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/test
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/center_lfe.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/center_lfe.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/default.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/default.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/dmix.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/dmix.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/dpl.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/dpl.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/dsnoop.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/dsnoop.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/front.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/front.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/iec958.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/iec958.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/modem.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/modem.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/rear.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rear.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/side.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/side.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/surround40.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround40.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/surround41.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround41.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/surround50.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround50.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/surround51.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround51.conf
-cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/surround71.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround71.conf
+cp ~/proprietary/rk2818_gb/system/lib/libcamera.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libcamera.so
+cp ~/proprietary/rk2818_gb/system/etc/pvplayer.cfg ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/pvplayer.cfg
+cp ~/proprietary/rk2818_gb/system/lib/lib_rk_apedec.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/lib_rk_apedec.so
+cp ~/proprietary/rk2818_gb/system/lib/lib_rk_flacdec.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/lib_rk_flacdec.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_aacdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_aacdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_ac3dec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_ac3dec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_amrdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_amrdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_amrenc_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_amrenc_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_avcdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_avcdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_avcenc_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_avcenc_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_dradec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_dradec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_dtsdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_dtsdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_flv1dec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_flv1dec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_m4vdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_m4vdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_m4venc_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_m4venc_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_mp3dec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_mp3dec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_radec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_radec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_rmdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_rmdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_wavdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_wavdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_wmadec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_wmadec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libomx_wmvdec_sharedlibrary.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libomx_wmvdec_sharedlibrary.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_author.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_author.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_avilocal.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_avilocal.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_avilocalreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_avilocalreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_common.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_common.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_download.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_download.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_downloadreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_downloadreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_flvlocal.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_flvlocal.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_flvlocalreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_flvlocalreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_mkvlocal.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_mkvlocal.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_mkvlocalreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_mkvlocalreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_mp4local.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_mp4local.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_mp4localreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_mp4localreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_net_support.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_net_support.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_player.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_player.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_rmlocal.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_rmlocal.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_rmlocalreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_rmlocalreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_rtsp.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_rtsp.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_rtspreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_rtspreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_wmvlocal.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_wmvlocal.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencore_wmvlocalreg.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencore_wmvlocalreg.so
+cp ~/proprietary/rk2818_gb/system/lib/libopencorehw.so ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/libopencorehw.so
+cp ~/proprietary/rk2818_gb/system/lib/opencore.ver ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/opencore.ver
+cp ~/proprietary/rk2818_gb/system/lib/modules/wlan.ko ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/wlan.ko
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/alsa.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/alsa.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/cards/aliases.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/aliases.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/init/00main ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/00main
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/init/default ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/default
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/init/hda ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/hda
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/init/help ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/help
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/init/info ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/info
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/init/test ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/test
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/center_lfe.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/center_lfe.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/default.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/default.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/dmix.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/dmix.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/dpl.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/dpl.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/dsnoop.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/dsnoop.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/front.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/front.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/iec958.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/iec958.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/modem.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/modem.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/rear.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/rear.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/side.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/side.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/surround40.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround40.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/surround41.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround41.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/surround50.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround50.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/surround51.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround51.conf
+cp ~/proprietary/rk2818_gb/system/usr/share/alsa/pcm/surround71.conf ../../../vendor/$MANUFACTURER/$DEVICE/proprietary/surround71.conf
 
 
 (cat << EOF) | sed s/__DEVICE__/$DEVICE/g | sed s/__MANUFACTURER__/$MANUFACTURER/g > ../../../vendor/$MANUFACTURER/$DEVICE/device-vendor-blobs.mk
@@ -95,8 +138,12 @@ cp ~/proprietary/rk2818/system/usr/share/alsa/pcm/surround71.conf ../../../vendo
 PRODUCT_COPY_FILES := \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudio.so:obj/lib/libaudio.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudiopolicy.so:obj/lib/libaudiopolicy.so \\
-    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcamera.so:obj/lib/libcamera.so
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcamera.so:obj/lib/libcamera.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_author.so:obj/lib/libopencore_author.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_player.so:obj/lib/libopencore_player.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_common.so:obj/lib/libopencore_common.so
 
+ 
 # All the blobs necessary for rk2818
 PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/DspBoot.rkl:system/etc/firmware/DspBoot.rkl \\
@@ -127,6 +174,49 @@ PRODUCT_COPY_FILES += \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudio.so:system/lib/libaudio.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libaudiopolicy.so:system/lib/libaudiopolicy.so \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/libcamera.so:system/lib/libcamera.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/pvplayer.cfg:system/etc/pvplayer.cfg \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/lib_rk_apedec.so:system/lib/lib_rk_apedec.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/lib_rk_flacdec.so:system/lib/lib_rk_flacdec.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_ac3dec_sharedlibrary.so:system/lib/libomx_ac3dec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_amrdec_sharedlibrary.so:system/lib/libomx_amrdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_avcdec_sharedlibrary.so:system/lib/libomx_avcdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_avcenc_sharedlibrary.so:system/lib/libomx_avcenc_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_dradec_sharedlibrary.so:system/lib/libomx_dradec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_dtsdec_sharedlibrary.so:system/lib/libomx_dtsdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_flv1dec_sharedlibrary.so:system/lib/libomx_flv1dec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_m4vdec_sharedlibrary.so:system/lib/libomx_m4vdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_m4venc_sharedlibrary.so:system/lib/libomx_m4venc_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_mp3dec_sharedlibrary.so:system/lib/libomx_mp3dec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_radec_sharedlibrary.so:system/lib/libomx_radec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_rmdec_sharedlibrary.so:system/lib/libomx_rmdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_sharedlibrary.so:system/lib/libomx_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_wavdec_sharedlibrary.so:system/lib/libomx_wavdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_wmadec_sharedlibrary.so:system/lib/libomx_wmadec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libomx_wmvdec_sharedlibrary.so:system/lib/libomx_wmvdec_sharedlibrary.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_author.so:system/lib/libopencore_author.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_avilocal.so:system/lib/libopencore_avilocal.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_avilocalreg.so:system/lib/libopencore_avilocalreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_common.so:system/lib/libopencore_common.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_download.so:system/lib/libopencore_download.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_downloadreg.so:system/lib/libopencore_downloadreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_flvlocal.so:system/lib/libopencore_flvlocal.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_flvlocalreg.so:system/lib/libopencore_flvlocalreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_mkvlocal.so:system/lib/libopencore_mkvlocal.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_mkvlocalreg.so:system/lib/libopencore_mkvlocalreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_mp4local.so:system/lib/libopencore_mp4local.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_mp4localreg.so:system/lib/libopencore_mp4localreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_net_support.so:system/lib/libopencore_net_support.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_player.so:system/lib/libopencore_player.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_rmlocal.so:system/lib/libopencore_rmlocal.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_rmlocalreg.so:system/lib/libopencore_rmlocalreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_rtsp.so:system/lib/libopencore_rtsp.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_wmvlocal.so:system/lib/libopencore_wmvlocal.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencore_wmvlocalreg.so:system/lib/libopencore_wmvlocalreg.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/libopencorehw.so:system/lib/libopencorehw.so \\
+    vendor/__MANUFACTURER__/__DEVICE__/proprietary/opencore.ver:system/lib/opencore.ver \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/wlan.ko:system/lib/modules/wlan.ko \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/alsa.conf:system/usr/share/alsa/alsa.conf \\
     vendor/__MANUFACTURER__/__DEVICE__/proprietary/aliases.conf:system/usr/share/alsa/cards/aliases.conf \\

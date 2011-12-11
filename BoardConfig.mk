@@ -1,6 +1,6 @@
 USE_CAMERA_STUB := true
 BOARD_USES_GENERIC_AUDIO := true
-BOARD_USE_FROYO_LIBCAMERA := true
+BOARD_USE_FROYO_LIBCAMERA := false
 
 # inherit from the proprietary version
 -include vendor/rockchip/rk2818/BoardConfigVendor.mk
@@ -27,9 +27,10 @@ WIFI_DRIVER_MODULE_PATH     := "/system/lib/modules/wlan.ko"
 WIFI_DRIVER_MODULE_ARG      := ""
 WIFI_DRIVER_MODULE_NAME     := "wlan"
 
+TARGET_LIBAGL_USE_GRALLOC_COPYBITS := true
+
 BOARD_AVOID_DRAW_TEXTURE_EXTENSION := true
 BOARD_HAS_LIMITED_EGL := true
-TARGET_LIBAGL_USE_GRALLOC_COPYBITS := true
 
 BOARD_USE_LEGACY_USB_MASS_STORAGE_SWITCH := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/dwc_otg/gadget/lun%d/file"
